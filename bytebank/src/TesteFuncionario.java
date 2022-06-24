@@ -9,6 +9,7 @@ public class TesteFuncionario {
 		
 		
 		System.out.println(f1.getNome());
+		System.out.println(f1.getBonificacao());
 		System.out.printf("Bonificação de %s é %.2f %n",f1.getNome(),f1.getBonificacao());
 		Gerente g1 = new Gerente();
 		
